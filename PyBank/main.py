@@ -2,7 +2,7 @@ import os
 import csv
 
 #Creating an object out of the CSV file
-budget_data = os.path.join("Resources\budget_data.csv")
+budget_data = os.path.join("PyBank/Resources/budget_data.csv")
 
 total_months = 0
 total_pl = 0
@@ -64,7 +64,7 @@ print(f"Greatest Increase in Profits: {greatest_date} (${str(greatest_increase)}
 print(f"Greatest Decrease in Profits: {worst_date} (${str(greatest_decrease)})")
 
 #Exporing to .txt file
-output = open("output.txt", "w")
+output = open("PyBank/Analysis/output.txt", "w")
 
 line1 = "Financial Analysis"
 line2 = "---------------------"
